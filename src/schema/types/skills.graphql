@@ -1,0 +1,12 @@
+type skills{
+    name:String
+    desc:String
+}
+
+type ResultSkills{
+    data:[skills]
+    errors:String
+}
+type Query{
+    getSkills:ResultSkills
+}

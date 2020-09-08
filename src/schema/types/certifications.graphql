@@ -1,0 +1,12 @@
+type certs{
+    name:String
+    desc:String
+}
+
+type ResultCertifications{
+    data:[certs]
+    errors:String
+}
+type Query{
+    getCertifications:ResultCertifications
+}
